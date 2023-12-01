@@ -1,9 +1,7 @@
 const fs = require('fs');
 
 const inquirer = require('inquirer');
-
-import inquirer from 'inquirer';
-
+const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 
@@ -11,8 +9,13 @@ inquirer
 .prompt([
   {
     type: "input",
-    message: "What is the name and description of this project?",
+    message: "What is the name of this project?",
     name: "Title"
+  },
+  {
+    type: "input",
+    message: "Please give a description of this project",
+    name: "description"
   },
   {
     type: "input",
