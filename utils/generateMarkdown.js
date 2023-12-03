@@ -1,6 +1,6 @@
 //create a function that returns a license badge based on license used
 //If there is no license return an empty string
-function renderLicense(license) {
+function renderLicenseBadge (license) {
   if (license === "Unlicense") {
     return "";
   }
@@ -18,7 +18,7 @@ function renderLicense(license) {
   }
 }
 
-//create a function that retuns the license link
+//create a function that returns the license link
 //if there is no license return an empty string
 function renderLicenseLink(license) {
   if (license === "Unlicense") {
@@ -40,5 +40,67 @@ function renderLicenseLink(license) {
 //create a function that returns the license section of README.
 //if no license return an empty string
 function renderLicenseSection(license){
-    if 
+    if (license ==="Unlicense"){
+      return "";
+    }
 }
+//create a function to generate a markdownnfor README
+function generateMarkdown(data){
+  return `#{data.title};
+
+
+## Description
+
+-${data.why}
+-${data.problem}
+-${data.learning}
+-${data.features}
+-${data.challenges}
+
+## Table of Contents
+
+-[installation](#installation)
+-[usage](#usage)
+-[credits](#credits)
+-[license](#license)
+-[features](#features)
+-[how to contribute](#how to contribute)
+
+
+
+## Installation
+
+-${data.install}
+
+## Usage
+
+![alt text](/assets/images/screenshot.png)
+
+## credits
+
+-${data.contributors}
+-${data.thirdparty}
+
+## License
+
+-${renderLicenseBadge(data.license)}
+
+## Badges
+
+![License: MPL 2.0] (https://img.shields.io/badge/License-MPL_2.0-brightgree.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: EPL](https://img.shields.io/badge/License-EPL_1.0-red.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
+
+## Features
+
+-${data.features}
+
+## How to contribute
+
+-${data.contribute}
+
+`;
+}
+module.exports = generateMarkdown;

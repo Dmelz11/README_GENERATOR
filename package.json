@@ -1,6 +1,6 @@
 {
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "name": "readme_generator",
   "version": "1.0.0",
   "description": "## Description",
