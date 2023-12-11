@@ -14,16 +14,16 @@ I learned to work with node.js, json and the node packages fs and iquirer.
 Initially it took me a while to get the prompts to come up in the terminal and then once that worked out it was a lot of detail type work to properly link the answers to the prompts to the functions in the generateMarkdown.js file and next and finally to the readme file itself. Also linking the licenses and badges data as well as this was the first project requiring a demo video, so that process was new to me as well.
 
 ## Table of Contents
--[title](#title)
--[description](#description)
--[installation](#installation)
--[usage](#usage)
--[credits](#credits)
--[license](#license)
--[badges](#badges)
--[features](#features)
--[questions](#questions)
--[how to contribute](#how to contribute)
+- [title](#title)
+- [description](#description)
+- [installation](#installation)
+- [usage](#usage)
+- [credits](#credits)
+- [license](#license)
+- [badges](#badges)
+- [features](#features)
+- [questions](#questions)
+- [how to contribute](#how-to-contribute)
 - [links](#links)
 
 
@@ -32,8 +32,8 @@ Initially it took me a while to get the prompts to come up in the terminal and t
 To install this generator a user could clone the repo to their vscode terminal then open an integrated terminal in the index.js file. Then type npm i, and hit enter. Then type node index, and hit enter.
 
 ## Usage
-To use this application do the folling:
-![alt text](/assets/images/screenshot.png)
+
+
 To use this application. After following the insallation instructions just answer the prompts and a readme file will be created. If a user would like to add a screenshot they can copy and paste a screenshot into the assets/images folder.
 
 ## Credits
@@ -58,7 +58,7 @@ I didn't have any collaborators on this project. I referenced the starter code a
 The features are A title, a description, a table of contents, a how to install description and a how to use section. It also has sections for licenses and badges, a credits section for attributing third party contributors, and sections to reach me with questions or to contribute on this project. It also gives the links to my github account and the demo video.
 
 ## Questions
-undefined
+
 I can be reached for questions at my github acct:https://www.github.com/Dmelz11.git or by email at:david@greensprings.us
 
 ## How to contribute

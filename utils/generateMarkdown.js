@@ -66,17 +66,17 @@ ${data.learning}
 ${data.challenges}
 
 ## Table of Contents
--[title](#title)
--[description](#description)
--[installation](#installation)
--[usage](#usage)
--[credits](#credits)
--[license](#license)
--[badges](#badges)
--[features](#features)
--[questions](#questions)
--[how to contribute](#how to contribute)
--[links](#links)
+- [title](#title)
+- [description](#description)
+- [installation](#installation)
+- [usage](#usage)
+- [credits](#credits)
+- [license](#license)
+- [badges](#badges)
+- [features](#features)
+- [questions](#questions)
+- [how to contribute](#how-to-contribute)
+- [links](#links)
 
 
 ## Installation
@@ -110,7 +110,7 @@ ${renderLicenseBadge(data.license)}
 ${data.features}
 
 ## Questions
-${data.github}
+
 ${data.questions}
 
 ## How to contribute
