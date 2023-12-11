@@ -78,6 +78,11 @@ const generateMarkdown = require("./utils/generateMarkdown");
       message: "How can people contribute to this project",
       name: "contribute",
     },
+    {
+      type: "input",
+      message: "Add any links to github or hosted page",
+      name: "links"
+    },
   ]).then((data) => {
     console.log(data);
     fs.writeFile("README.md", generateMarkdown(data), (error) => {

@@ -76,7 +76,7 @@ ${data.challenges}
 -[features](#features)
 -[questions](#questions)
 -[how to contribute](#how to contribute)
-
+-[links](#links)
 
 
 ## Installation
@@ -84,11 +84,11 @@ ${data.challenges}
 ${data.installation}
 
 ## Usage
-To use this application do the folling:
-![alt text](/assets/images/screenshot.png)
+
+
 ${data.usage}
 
-## credits
+## Credits
 
 ${data.credits}
 
@@ -110,14 +110,16 @@ ${renderLicenseBadge(data.license)}
 ${data.features}
 
 ## Questions
-I can be reached through my github account:(https://${data.github}/)
+${data.github}
 ${data.questions}
 
 ## How to contribute
 
 ${data.contribute}
 
+## Links
 
+${data.links}
 
 `;
 }

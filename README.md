@@ -7,7 +7,7 @@ Professional Readme Generator
 
 
 ## Description
-
+This application is designed to create a readme file by answering a series of questions in the integrated terminal using node.js
 As a developer I will need to create many readme files and this will be a great tool to use for the purpose.
 It solves the problem of constantly needing to create readme files from scratch.
 I learned to work with node.js, json and the node packages fs and iquirer.
@@ -24,11 +24,12 @@ Initially it took me a while to get the prompts to come up in the terminal and t
 -[features](#features)
 -[questions](#questions)
 -[how to contribute](#how to contribute)
-
+- [links](#links)
 
 
 ## Installation
 
+To install this generator a user could clone the repo to their vscode terminal then open an integrated terminal in the index.js file. Then type npm i, and hit enter. Then type node index, and hit enter.
 
 ## Usage
 To use this application do the folling:
@@ -57,12 +58,14 @@ I didn't have any collaborators on this project. I referenced the starter code a
 The features are A title, a description, a table of contents, a how to install description and a how to use section. It also has sections for licenses and badges, a credits section for attributing third party contributors, and sections to reach me with questions or to contribute on this project. It also gives the links to my github account and the demo video.
 
 ## Questions
-I can be reached through my github account:(https://undefined/)
+undefined
 I can be reached for questions at my github acct:https://www.github.com/Dmelz11.git or by email at:david@greensprings.us
 
 ## How to contribute
 
-o contribute to this project a person could go to my repo at https://github.com/Dmelz11/readme_generator/tree/main then open a new branch and submit any changes by making a pull request.
+To contribute to this project a person could go to my repo at https://github.com/Dmelz11/readme_generator/tree/main then open a new branch and submit any changes by making a pull request.
 
+## Links
 
+https://github.com/Dmelz11/readme_generator/tree/main https://drive.google.com/file/d/1Wr9uhSzLRnPwg25nCU0mZTN3VsY58qeT/view
 
