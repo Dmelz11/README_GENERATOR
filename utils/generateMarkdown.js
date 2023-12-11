@@ -59,7 +59,7 @@ ${data.title}
 
 
 ## Description
-
+${data.description}
 ${data.why}
 ${data.problem}
 ${data.learning}
@@ -80,8 +80,8 @@ ${data.challenges}
 
 
 ## Installation
-To install, follow installation instructions.
-${data.install}
+
+${data.installation}
 
 ## Usage
 To use this application do the folling:

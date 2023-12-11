@@ -25,7 +25,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
     {
       type: "input",
       message: "What are the steps required to install this project",
-      name: "Installation",
+      name: "installation",
     },
     {
       type: "input",
