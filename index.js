@@ -4,12 +4,13 @@ const inquirer = require("inquirer");
 
 const generateMarkdown = require("./utils/generateMarkdown");
 
-inquirer
+
+  inquirer
   .prompt([
     {
       type: "input",
-      message: "What is the name of this project?",
-      name: "Title",
+      message: "What is the name of this project",
+      name: "title",
     },
     {
       type: "input",
@@ -18,13 +19,13 @@ inquirer
     },
     {
       type: "input",
-      message: "Why did you create this project?",
+      message: "Why did you create this project",
       name: "why",
     },
     {
       type: "input",
       message: "What are the steps required to install this project",
-      name: "installation",
+      name: "Installation",
     },
     {
       type: "input",
@@ -33,51 +34,56 @@ inquirer
     },
     {
       type: "input",
-      message: "List your collaborators",
-      name: "collaborators",
+      message: "List your collaborators or third party resources",
+      name: "credits",
     },
     {
       type: "input",
       message: "List any thirdparty assets",
-      name: "thirdparty",
+      name: "credits",
     },
     {
       type: "input",
-      message: "What problem does it solve?",
+      message: "What problem does it solve",
       name: "problem",
     },
     {
       type: "input",
-      message: "What did you learn?",
+      message: "What did you learn",
       name: "learning",
     },
     {
       type: "input",
-      message: "How does your project stand out?",
+      message: "What are some of the features included in this application",
       name: "features",
     },
     {
       type: "input",
-      message: "What were some challenges?",
+      message: "What were some challenges",
       name: "challenges",
     },
     {
-      type: "input",
+      type: "list",
       message: "select a license",
       name: "license",
+      choices: ["Unlicense","Mozilla Public License","MIT","Eclipse Public License","GNU General Public License"]
     },
     {
       type: "input",
-      message: "How can people contribute to this project?",
+      message: "Please enter an email address or github account for questions",
+      name: "questions",
+    },
+    {
+      type: "input",
+      message: "How can people contribute to this project",
       name: "contribute",
     },
-  ])
-  .then((data) => {
+  ]).then((data) => {
     console.log(data);
     fs.writeFile("README.md", generateMarkdown(data), (error) => {
       if (error) {
         console.log("Please finish inputting all data.");
       }
       console.log("Your README has been generated");
-    });
-  });
+    }
+  )})
